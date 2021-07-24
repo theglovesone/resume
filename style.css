@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: radial-gradient(#fff,#ffd6d6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.container .left {
+    position: relative;
+    background: #555;
+    padding: 40px;
+}
+.profile {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.profile .imgBx {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile .imgBx img {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.profile h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profile h2 span {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.infor {
+    padding-top: 10px;
+    
+}
+.title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.infor ul {
+    position: relative;
+}
+.infor ul li {
+    list-style: none;
+    position: relative;
+    margin: 5px 0;
+}
+.infor ul li .icon {
+ display: inline-block;
+ width: 30px;
+ font-size: 18px;
+ color: #2CF532;
+}
+.infor ul li span {
+    color: #fff;
+    font-weight: 300;
+}
+.infor.education li {
+    margin-bottom: 15px;
+}
+.infor.education h5 {
+ color: #2CF532;
+ font-weight: 500;
+}
+.infor.education h4:nth-child(2) {
+color: #fff;
+font-weight: 500;
+}
+.infor.education h4 {
+    color: #fff;
+    font-weight: 300;
+    }
+
+.infor.short h5 {
+    color: #2CF532;
+    font-weight: 500;
+       }
+.infor.short h4:nth-child(2) {
+    color: #fff;
+    font-weight: 500;
+    
+      }
+.infor.short h4 {
+    color: #fff;
+    font-weight: 300;
+   text-align: center;
+    }
+    infor.short li {
+    margin-bottom: 15px;
+    }
+
+    .container.right {
+        position: relative;
+        background: #fff;
+        padding: 40px;
+    }
+    .objective {
+        margin-bottom: 50px;
+    }
+    .persondata  {
+        border-bottom: 2px solid rgba(255,255,255,0.2);
+    }
+    .education {
+        border-bottom: 2px solid rgba(179, 120, 120, 0.2);
+    }
+    .short {
+        border-bottom: 2px solid rgba(179, 120, 120, 0.2);
+    }
+    .right {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .about {
+        margin-bottom: 50px;
+    }
+    .about:last-child {
+        margin-bottom: 0;
+    }
+    .title2 {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+    }
+    p {
+        color: #333;
+    }
+    .about .box {
+        display: flex;
+        flex-direction: row;
+        margin: 20px 0;
+    }
+    .about .box .year {
+        min-width: 250px;
+    }
+    .about .box .year h5 {
+        text-transform: uppercase;
+        color: #848c90;
+        font-weight: 600;
+    }
+    .about .box .text h4 {
+        text-transform: uppercase;
+        color: #2a7da2;
+        font-size: 16px;
+    }
+   .skills .box {
+       position: relative;
+       width: 100%;
+       display: grid;
+       grid-template-columns: 150px 1fr;
+       justify-content: center;
+       align-items: center;
+
+   }
+   .skills .box h4 {
+       text-transform: uppercase;
+       color: #848c99;
+       font-weight: 500;
+   }
+   .skills .box .percent {
+       position: relative;
+       width: 100%;
+       height: 20px;
+      }
+      .rating {
+          padding-left: 100px;
+      }
+      .infor.language .percent {
+          position: relative;
+          width: 100%;
+          height: 6px;
+          background: #081921;
+          display: block;
+          margin-top: 5px;
+      }
+      .infor.language .percent div {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          background: #03a9f4;
+      }
