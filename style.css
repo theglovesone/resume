@@ -126,7 +126,30 @@ font-weight: 500;
     margin-bottom: 15px;
     }
 
-    .container.right {
+/* info references */
+
+ .infor.ref h5 {
+    color: #2CF532;
+    font-weight: 500;
+  }
+
+.infor.ref h4:nth-child(2) {
+    color: #fff;
+    font-weight: 500;
+  }
+
+.infor.ref h4 {
+    color: #fff;
+    font-weight: 300;
+   text-align: center;
+ }
+    
+infor.ref li {
+    margin-bottom: 15px;
+ }
+   
+
+ .container.right {
         position: relative;
         background: #fff;
         padding: 40px;
